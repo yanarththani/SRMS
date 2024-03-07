@@ -64,12 +64,12 @@ body{
 
 .input_box label{
     position: absolute;
-    top: 50%;
+    top: 5%;
     left: 0;
     transform: translateY(-50%);
     font-size: 18px;
-    color: #ffffff;
-    transition: .5s;
+    color: #db64ff;
+    /* transition: .5s; */
 }
 
 .input_box input:focus ~ label,
