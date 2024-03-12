@@ -3,7 +3,7 @@ export default function FinalFirstMarking_P(){
             <div className=''>
                 <h2>Final Marks</h2>
                 <div className=''>
-                    <form action="#">
+                    <form action="# ">
                         <div className="">
                             <label>S.No</label>
                             <input type="text" name="s_no"/>
