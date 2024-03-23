@@ -1,4 +1,4 @@
-export default function ViewICAEMarks_T(){
+export default function ViewTheoryICAE(){
 
     return(
         
