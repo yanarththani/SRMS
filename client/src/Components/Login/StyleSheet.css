@@ -1,0 +1,258 @@
+/* Login */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+
+.container{
+    position: relative;
+    width: 700px;
+    height: 450px;
+    border: 2px solid rgb(7, 214, 214);
+    /* box-shadow: 0 0 25px teal; */
+    background: rgb(255, 255, 255);
+    border-radius: 30px;
+    overflow: hidden;
+}
+.form_box h2{
+    font-size: 32px;
+    text-align: left;
+}
+.container .form_box{
+    position: relative;
+    width: 80%;
+    height: 50px;
+    margin-top: 65px;
+    color: teal;
+}
+
+.form_box.Login{
+    left: 0;
+    padding: 0 60px;
+}
+
+.form_box .input_box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+}
+
+.input_box input{
+    width: 50%;
+    height: 80%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: teal;
+    font-weight: 600;
+    border-bottom: 2px solid #000000;
+    padding-right: 23px;
+
+}
+
+.input_box label{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #000000;
+    cursor: text;
+    /* transition: .5s; */
+}
+/* 
+.input_box input:focus~label,
+.input_box input:valid~label{
+    top: 5%;
+    color: #db64ff;  
+} */
+
+.btn{
+    position: relative;
+    width: 50%;
+    height: 45px;
+    background: transparent;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid teal;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn::before{
+    content: "";
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    background: linear-gradient(rgb(0, 255, 255), teal, rgba(0, 128, 128, 0.241),#cd27ff);
+    top: -100%;
+    left: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+.btn:hover::before{
+    top: 0;
+}
+
+.btn-default{
+    color: teal;
+}
+
+.info-content{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.info-content.Login{
+    right: 0;
+    text-align: right;
+    padding: 0px 30px 70px 10px;
+}
+
+.info-content.Login{
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container .curved_shape1{
+    position: absolute;
+    right: 0;
+    top: -5px;
+    height: 600px;
+    width: 850px;
+    background: linear-gradient(45deg,#efe4f4,teal);
+    transform: rotate(10deg) skewY(40deg);
+    transform-origin: bottom right;
+}
+
+
+/*add academic year*/
+/* Style for the container */
+.form1_box{
+    align-items: center;
+    width: 500px;
+    height: 350px;
+    padding: 50px 100px ;
+}
+.container_aca {
+    /* max-width: 100px; */
+    margin: 0 auto;
+    padding: 40px;
+    background-color:rgb(201, 221, 221);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for headings */
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for labels */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Style for select elements */
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style for options within select elements */
+  option {
+    padding: 5px;
+  }
+  
+  /* Style for disabled select elements */
+  select[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+  select{
+    width: 150px;
+  }
+  
+  /* Style for option container */
+  .option-container {
+    margin-top: 15px;
+  }
+  
+  /* Style for option buttons */
+  option{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  /* Hover effect for option buttons */
+  .option-btn:hover {
+    background-color: teal;
+  }
+  
+  /* Style for disabled option buttons */
+  .option-btn[disabled] {
+    background-color: #ccc;
+    color: #666;
+    cursor: not-allowed;
+  }
+  .link-button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: teal;
+    padding: 0;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+
+  }
+  
+  .link_aca {
+    text-decoration: none;
+    color: inherit; /* Ensures link color matches parent's text color */
+  }
+  .btn_academic{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(0, 141, 141);
+    font-weight: bold;
+    color: white;
+    
+  }
+  
+  
