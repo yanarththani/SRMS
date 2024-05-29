@@ -1,0 +1,101 @@
+.ica {
+    max-width: 1000px;
+    min-height: 100px; /* or any other minimum height you prefer */
+    border: 2px solid teal;
+    background: rgb(255, 255, 255);
+    border-radius: 40px;
+    margin: 50px;
+    padding: 40px; /* optional, for inner spacing */
+    box-sizing: border-box; /* ensures padding is included in the element's total width */
+  }
+  
+  
+  .styled-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 25px 0;
+      font-size: 18px;
+      text-align: left;
+      border: 1px solid #dddddd;
+    }
+    .styled-table th, .styled-table td {
+      text-align:center;
+      padding: 12px 8px;
+      border: 1px solid #dddddd;
+    }
+    
+    .styled-table thead tr {
+      background-color: teal;
+      color: #ffffff;
+      text-align: left;
+      height:50px;
+    }
+    
+    .styled-table tbody tr {
+      border-bottom: 1px solid #dddddd;
+    }
+    
+    .styled-table tbody tr:nth-of-type(even) {
+      background-color: #f3f3f3;
+    }
+    
+    .styled-table tbody tr:last-of-type {
+      border-bottom: 2px solid #009879;
+    }
+    
+    .styled-table input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+  
+    .action-button {
+      cursor: pointer;
+      padding: 5px 10px;
+      margin: 5px;
+      border: none;
+      color: white;
+      border-radius: 15px;
+    }
+    .button-cell {
+      border: 0;
+      display: flex;
+      gap: 10px; /* Add space between buttons */
+      align-items: center;
+      justify-content: center;
+    }
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 20px 0;
+    }
+    
+    .page-button {
+      background-color: #e0e0e0;
+      border: none;
+      padding: 10px 15px;
+      margin: 0 5px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    
+    .page-button:hover {
+      background-color: #d0d0d0;
+    }
+    
+    .page-button.active {
+      background-color: teal;
+      color: white;
+    }
+    
+    .page-button:disabled {
+      background-color: #f0f0f0;
+      cursor: not-allowed;
+    }
+    
+    span {
+      padding: 10px 15px;
+    }
+    
+    
